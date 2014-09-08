@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.micha_000.ustapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".homePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".courseList"
+            android:label="@string/title_activity_course_list" >
+        </activity>
+        <activity
+            android:name=".buildingList"
+            android:label="@string/title_activity_building_list" >
+        </activity>
+        <activity
+            android:name=".engineeringChoices"
+            android:label="@string/title_activity_engineering_choices" >
+        </activity>
+        <activity
+            android:name=".computerScience"
+            android:label="@string/title_activity_computer_science" >
+        </activity>
+        <activity
+            android:name=".roqueBuilding"
+            android:label="@string/title_activity_roque_building" >
+        </activity>
+        <activity
+            android:name=".scienceChoices"
+            android:label="@string/title_activity_science_choices" >
+        </activity>
+        <activity
+            android:name=".psychology"
+            android:label="@string/title_activity_psychology" >
+        </activity>
+        <activity
+            android:name=".informationTechnology"
+            android:label="@string/title_activity_information_technology" >
+        </activity>
+        <activity
+            android:name=".informationStudies"
+            android:label="@string/title_activity_information_studies" >
+        </activity>
+        <activity
+            android:name=".biology"
+            android:label="@string/title_activity_biology" >
+        </activity>
+        <activity
+            android:name=".chemistry"
+            android:label="@string/title_activity_chemistry" >
+        </activity>
+        <activity
+            android:name=".architecture"
+            android:label="@string/title_activity_architecture" >
+        </activity>
+        <activity
+            android:name=".mainBuilding"
+            android:label="@string/title_activity_main_building" >
+        </activity>
+        <activity
+            android:name=".beatoAngelico"
+            android:label="@string/title_activity_beato_angelico" >
+        </activity>
+    </application>
+
+</manifest>
